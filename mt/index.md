@@ -1,8 +1,7 @@
 # 团队猫运维手册
 
 ## 安装
-
-[TOC]
+[使用 Docker Compose 安装团队猫](docker-compose.md)
 
 ## 维护
 
