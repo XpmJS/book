@@ -2,7 +2,7 @@
 
 ## 安装
 
-[使用 Docker Compose 安装团队猫](/mt/docker-compose.md)
+[TOC]
 
 ## 维护
 
