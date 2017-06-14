@@ -1,4 +1,4 @@
-# 使用 Docker Compose 安装团队猫 {#天人合一}
+# 使用 Docker Compose 安装团队猫
 
 ## 第一步: 安装 Docker
 
