@@ -46,6 +46,8 @@ services:
       - some.domain.com:172.17.0.1
     environment:
       - HOST=some.domain.com
+      - REDIS=off
+      - MYSQL=off
     ports:
       - "80:80"
       - "443:443"
