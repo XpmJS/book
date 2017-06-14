@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-团队猫教程
+团队猫手册
 ========================
 
 ### 目录
@@ -12,8 +11,4 @@
 * [服务手册](se/index.md)
 * [MINA模板引擎](mina/index.md)
 * [运维手册](mt/index.md)
-
-
-=======
 * [空白目录](default.md)
->>>>>>> kancloud/master
