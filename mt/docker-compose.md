@@ -1,14 +1,12 @@
-使用 Docker Compose 安装团队猫
-================================================
+# 使用 Docker Compose 安装团队猫 {#天人合一}
 
-## 第一步: 安装 Docker 
+## 第一步: 安装 Docker
 
-安装 Docker 
+安装 Docker
 
 ```bash
 sudo -s
 curl -sSL https://get.daocloud.io/docker | sh
-
 ```
 
 安装加速器
@@ -18,8 +16,7 @@ sudo -s
 curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://5382404c.m.daocloud.io
 ```
 
-
-安装 Docker Compose 
+安装 Docker Compose
 
 ```bash
 sudo -s
@@ -29,7 +26,7 @@ sudo  chmod +x  /usr/local/bin/docker-compose
 
 ## 第二步: 编写启动配置文件
 
-在用户目录下创建配置文件。 
+在用户目录下创建配置文件。
 
 ```bash
 mkdir ~/docker
@@ -85,7 +82,7 @@ docker-compose -f ~/docker/tuanduimao.yml restart
 
 ### 1. 设置 Git 仓库私钥
 
-**不得使用工程师私钥，必须使用 Guest或pub 账号私钥**
+**不得使用工程师私钥，必须使用 Guest或pub 账号私钥**  
 **如没有私钥可在开发管理平台申请**
 
 创建私钥文件
@@ -96,7 +93,7 @@ mkdir -p /root/.ssh
 vi /root/.ssh/id_rsa
 ```
 
-粘贴私钥字符串 **(以下为无效私钥，请更换为指定的私钥）**
+粘贴私钥字符串 **\(以下为无效私钥，请更换为指定的私钥）**
 
 ```text
 -----BEGIN RSA PRIVATE KEY-----
@@ -128,12 +125,11 @@ xRMvz0PYX0MEAIgjjccrt0iZzNvUxmgy1vGkXIGEOmPu5OmjcZwm
 -----END RSA PRIVATE KEY-----
 ```
 
-
 ### 2. 检出代码
 
-**应用配置信息中 org 和 name 的信息需要与应用目录对应** 
+**应用配置信息中 org 和 name 的信息需要与应用目录对应**
 
-例如:  应用配置信息 `package.json` 
+例如:  应用配置信息 `package.json`
 
 ```json
 ...
@@ -151,15 +147,11 @@ sudo -s
 mkdir -p /host/apps/mina
 cd /host/apps/mina 
 git clone ssh://git@dev.xpmjs.com:2222/source/xxx.git pages
-
 ```
 
 ## 第五步: 安装团队猫
 
 访问 `http://some.domain.com` 根据提示完成安装
 
-
-(全文完) [返回运维手册](index.md)
-
-
+\(全文完\) [返回运维手册](index.md)
 
