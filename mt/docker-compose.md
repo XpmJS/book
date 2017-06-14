@@ -40,7 +40,7 @@ version: '2'
 services:
   webserver:
     restart: always
-    image: tuanduimao/tuanduimao:1.33
+    image: tuanduimao/tuanduimao
     container_name: tuanduimao
     extra_hosts:
       - some.domain.com:172.17.0.1
