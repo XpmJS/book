@@ -105,17 +105,31 @@ extra_hosts:
 docker-compose -f ~/docker/tuanduimao.yml up -d
 ```
 
-其他操作: 关闭容器
+关闭删除容器
 
 ```bash
 docker-compose -f ~/docker/tuanduimao.yml down
 ```
 
-其他操作: 重启容器
+启动容器
+
+```bash
+docker-compose -f ~/docker/tuanduimao.yml start
+```
+
+关闭容器
+
+```bash
+docker-compose -f ~/docker/tuanduimao.yml stop
+```
+
+重启容器
 
 ```bash
 docker-compose -f ~/docker/tuanduimao.yml restart
 ```
+
+
 
 ## 第四步: 使用Git检出应用
 
