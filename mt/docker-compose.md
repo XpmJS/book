@@ -99,13 +99,13 @@ extra_hosts:
 
 ## 第三步: 使用配置文件管理容器
 
-创建启动容器
+创建并启动容器
 
 ```bash
 docker-compose -f ~/docker/tuanduimao.yml up -d
 ```
 
-关闭删除容器
+关闭并删除容器
 
 ```bash
 docker-compose -f ~/docker/tuanduimao.yml down
