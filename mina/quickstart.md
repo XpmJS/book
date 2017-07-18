@@ -41,10 +41,14 @@ MP模板在编译时，会自动集成一个 JS SDK。JSSDK 实现了一套 VDOM
 
 #### 1. 下载 Hello World 示例包
 
-下载地址: https://www.tuanduimao.com/mina.zip
-下载示例项目包并解压缩，可以得到如下目录结构的文件夹: 
+代码地址: https://github.com/XpmJS/mina-demo
 
+```bash
+git clone https://github.com/XpmJS/mina-demo.git <your_name>
 
+```
+
+目录结构说明:
 
 ├── app/   移动应用目录
 ├── config.js   项目配置文件
@@ -58,7 +62,6 @@ MP模板在编译时，会自动集成一个 JS SDK。JSSDK 实现了一套 VDOM
 │   ├── web.json   WEB 配置文件 
 │   └── web.less   WEB 全局样式表
 └── wxapp/  小程序目录
-
 
 
 
