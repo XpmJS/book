@@ -68,12 +68,10 @@ git clone https://github.com/XpmJS/mina-demo.git <your_name>
 #### 2. 安装包依赖
 
 命令行进入项目文件所在目录，运行 npm 指令安装 npm 包。
-推荐使用淘宝镜像安装。
 
 ```bash
 cd <path/mina>
-npm install -g cnpm --registry=https://registry.npm.taobao.org
-cnpm install
+npm install
 ```
 
 
