@@ -4,14 +4,18 @@ Option 通用配置
 **不兼容提醒**
 *服务端版本 1.4.8+*
 
-**数据表**
-`core_option`
+**继承关系**
 
 ``` 
 \Tuanduimao\Model
 		   |
 \Tuanduimao\Option	      
 ```
+
+**相关数据表**
+`core_option`
+
+
 
 ## 调用示例
 
