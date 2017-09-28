@@ -6,6 +6,7 @@
 * [服务手册](se/index.md)
 * [MINA Pages](mina/index.md)
     * [快速开发指南](mina/quickstart.md)
+    * [图集API](mina/gallery.md)
     * [模板语言简明手册](mina/template.md)
     * [MINA WEB引擎工作原理](mina/overview.md)
 * [运维手册](mt/index.md)
