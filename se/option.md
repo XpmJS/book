@@ -30,7 +30,8 @@ $option->register(
     [
         "cover"=>["width"=>900,"height"=>500, "ratio"=>"9:5"], 
         "topic1"=>["width"=>null,"height"=>null, "ratio"=>"1:1"]
-    ]
+    ]，
+    10
 ]);
 
 
@@ -72,10 +73,11 @@ function __construct( $app_name );
 	 * @param  string $name    配置项中文名称
 	 * @param  string $key     配置项键 
 	 * @param  mix    $value   配置项值 (支持数组)
+   * @param  int    $order   自定义排序，默认为 99 
 	 * @param  string $app     命名空间( 应用名称， 默认为空使用创建对象时选用的命名空间)
 	 * @return $this
 	 */
-	public function register( $name, $key, $value=null, $app=null); 
+	public function register( $name, $key, $value=null, $order=99, $app=null); 
 ```
 
 ### unregister() 注销配置
@@ -124,5 +126,18 @@ function __construct( $app_name );
 	 * @return array  ["map"=>..., "data"=>...]
 	 */
 	public function getAll( $app = null ) 
+```
+
+
+### setOrder() 设定配置项排序
+
+```php
+  /**
+	 * 设定配置项排序
+	 * @param string $key   配置项键 
+	 * @param int $order    自定义排序数值
+	 * @param string $app   命名空间( 应用名称， 默认为空使用创建对象时选用的命名空间)
+	 */
+	public function setOrder( $key, $order, $app=null ) 
 ```
 
