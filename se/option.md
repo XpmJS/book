@@ -83,10 +83,10 @@ function __construct( $app_name );
 ```php
   /**
 	 * 注销配置 (只能注销应用的配置, 一般在卸载应用时调用)
-	 * @param  string $app 命名空间( 应用名称 )
+	 * @param  string $app  命名空间( 应用名称， 默认为空使用创建对象时选用的命名空间)
 	 * @return $this
 	 */
-	public function unregister( $app );
+	public function unregister( $app=null );
 ```
 
 ### get() 读取配置项值
