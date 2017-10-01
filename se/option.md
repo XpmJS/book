@@ -42,6 +42,10 @@ $option->set("image/ratio", [
 ]);
 
 
+// 修改配置项排序
+$option->setOrder("image/ratio", 10);
+
+
 // 读取配置项
 $ratio = $option->get("image/ratio");
 print_r( $ratio );
