@@ -15,6 +15,10 @@ Option 通用配置
 **相关数据表**
 `core_option`
 
+**相关代码文件**
+
+Option 类 `/service/lib/Option.php`
+Tuanduimao\Model\Option `/model/Option.php`
 
 
 ## 调用示例
