@@ -13,7 +13,7 @@ Media 本地媒体库
 ```
 
 **相关数据表**
-`core_option`
+`core_media`
 
 
 **相关代码文件**
