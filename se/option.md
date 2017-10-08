@@ -18,7 +18,7 @@ Option 通用配置
 **相关代码文件**
 
 Option 类 `/service/lib/Option.php`
-Tuanduimao\Model\Option `/model/Option.php`
+\Tuanduimao\Model\Option `/model/Option.php`
 
 
 ## 调用示例
