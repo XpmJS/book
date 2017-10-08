@@ -24,7 +24,7 @@
         * [文章API](apps/pages/article.md)
         * [图集API](apps/pages/gallery.md)
     * [MINA 问答](apps/ask/index.md)
-        * [问答API](apps/ask/ask_api.md)
-        * [专家API](apps/ask/author_api.md)
+        * [问答API](apps/ask/ask.md)
+        * [专家API](apps/ask/author.md)
 
 
